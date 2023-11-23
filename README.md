@@ -9,7 +9,7 @@
   `"search’` => `"search”`
 
 - **Line 3**  
-  **_Syntax error_**: Missing (#) to select ID Tag  
+  **_Syntax error_**: Missing `#` to select ID Tag  
   Found error in console pointing to incorrect line
 
   `"search”` => `"#search”`
@@ -17,7 +17,7 @@
   > "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
 
 - **Line 4**  
-  **_Syntax error_**: Missing (#) to select ID Tag  
+  **_Syntax error_**: Missing `#` to select ID Tag  
   Found error in console pointing to incorrect line
 
   `"city”` => `"#city”`
@@ -25,7 +25,7 @@
   > "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
 
 - **Line 5**  
-  **_Syntax error_**: Missing (#) to select ID Tag  
+  **_Syntax error_**: Missing `#` to select ID Tag  
   Found error in console pointing to incorrect line
 
   `"temp”` => `"#temp”`
@@ -33,7 +33,7 @@
   > "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
 
 - **Line 6**  
-  **_Syntax error_**: Missing (#) to select ID Tag  
+  **_Syntax error_**: Missing `#` to select ID Tag  
   Found error in console pointing to incorrect line
 
   `"message”` => `"#message”`
@@ -41,13 +41,13 @@
   > "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
 
 - **Line 4**  
-  **_Syntax error_**: typo missing "o"  
+  **_Syntax error_**: typo missing `o`  
   Found error in console pointing to incorrect line
 
   `querySelectr` => `querySelector`
 
 - **Line 40**  
-  **_Syntax error_**: Missing parenthesis for (e) parameter  
+  **_Syntax error_**: Missing parenthesis for `(e)` parameter  
   Found error in console pointing to incorrect line
 
   `e` => `(e)`
@@ -59,8 +59,8 @@
   `preventDefault();` => `e.preventDefault();`
 
 - **Line 19**  
-  **_Syntax error_**: We should use Backticks instead of Double quote because we have variable inside.  
-  Found the error in the Dom when you click search show `${temp}°C`
+  **_Syntax error_**: We should use Backticks ```instead of Double quote`"`because we have variable inside.  
+Found the error in the Dom when you click search show`${temp}°C`
 
   `“${temp}°C”` => `${temp}°C`
 
