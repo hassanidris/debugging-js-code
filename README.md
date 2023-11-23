@@ -59,7 +59,7 @@
   `preventDefault();` => `e.preventDefault();`
 
 - **Line 19**  
-  **_Syntax error_**: We should use Backticks ```instead of Double quote`"`because we have variable inside.  
+   **_Syntax error_**: We should use Backticks (``) instead of Double quote ("") because we have variable inside.  
 Found the error in the Dom when you click search show`${temp}°C`
 
   `“${temp}°C”` => `${temp}°C`
